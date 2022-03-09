@@ -1,0 +1,186 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validate the login page",
+    "line": 1,
+    "id": "validate-the-login-page",
+    "tags": [],
+    "uri": "loginSteps.feature",
+    "elements": [
+      {
+        "id": "validate-the-login-page;when-i-navigate-to-the-login-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "When I navigate to the login page",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "result": {
+              "status": "undefined",
+              "duration": 221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see \"Swag Labs\" displayed as the page title",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validate-the-login-page;login-with-invalid-username-and-password",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Login with invalid username and password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Provide the username \"abcd\" and password \"1234\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Login is failed with invlid username and password,message \"Epic sadface: Username and password do not match any user in this service\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validate-the-login-page;login-with-invalid-username-and-password",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login with invalid username and password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "result": {
+              "status": "undefined",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Provide the username \"35473\" and password \"afsdf\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Login is failed with invlid username and password,message \"Epic sadface: Username and password do not match any user in this service\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validate-the-login-page;login-with-empty-username",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Login with empty username",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Provide the password \"secret_sauce\" and empty username",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Login is failed with invlid username and password,message \"Epic sadface: Username is required\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validate-the-login-page;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Login with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
