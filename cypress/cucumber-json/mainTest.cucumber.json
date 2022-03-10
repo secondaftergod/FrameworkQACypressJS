@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Check buy list",
+    "line": 1,
+    "id": "check-buy-list",
+    "tags": [],
+    "uri": "mainTest.feature",
+    "elements": [
+      {
+        "id": "check-buy-list;check-title-on-main-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Check title on Main page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 1152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see \"Products\" displayed as the page title",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-buy-list;check-items-on-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Check items on page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 1128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see all items",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

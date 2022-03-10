@@ -22,7 +22,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 973000000
+              "duration": 1101000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I should see \"Swag Labs\" displayed as the page title",
             "result": {
               "status": "passed",
-              "duration": 24000000
+              "duration": 26000000
             }
           }
         ]
@@ -52,7 +52,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 1270000000
+              "duration": 1465000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Provide the username \"abcd\" and password \"1234\"",
             "result": {
               "status": "passed",
-              "duration": 1038000000
+              "duration": 1061000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "Login is failed with invlid username and password,message \"Epic sadface: Username and password do not match any user in this service\"",
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 21000000
             }
           }
         ]
@@ -92,7 +92,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 307000000
+              "duration": 317000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "Provide the username \"35473\" and password \"afsdf\"",
             "result": {
               "status": "passed",
-              "duration": 831000000
+              "duration": 848000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "Login is failed with invlid username and password,message \"Epic sadface: Username and password do not match any user in this service\"",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 25000000
             }
           }
         ]
@@ -132,7 +132,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 145000000
+              "duration": 169000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "Provide the password \"secret_sauce\" and empty username",
             "result": {
               "status": "passed",
-              "duration": 688000000
+              "duration": 699000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "Login is failed with invlid username and password,message \"Epic sadface: Username is required\"",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 14000000
             }
           }
         ]
@@ -172,7 +172,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 134000000
+              "duration": 142000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
             "result": {
               "status": "passed",
-              "duration": 1254000000
+              "duration": 1191000000
             }
           }
         ]
