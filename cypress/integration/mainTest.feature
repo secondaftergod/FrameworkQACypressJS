@@ -8,4 +8,14 @@ Feature: Check buy list
     Then I should see "Products" displayed as the page title
 
     Scenario:Check items on page
-    Then I should see all items
+    And I should see all "6" items
+    Scenario:Check buy buttons on page and order all items and check basket
+    And Check all "6" is visible buttons
+    And Click buy all items on page
+    Then Check "6" items in basket
+    And Check "6" remove buttons
+    And Click remove all items on page
+    Then Check items in basket after delete
+
+    Scenario:Check
+    Then Check items A-Z
