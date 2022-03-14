@@ -10,9 +10,9 @@ export default class MainPage extends BasePage {
     items_name="div[class*='inventory_item_name']"
     item_buttons="div[class='pricebar']>button"
     basket_in="span[class='shopping_cart_badge']"
-    sort_box="[class='product_sort_container']"
-    item_list=[]
-    list=[]
+    sort_box="[class='select_container']"
+    items_list=[]
+
     get_title(){
         return cy.get(this.buy_page_title)
     }
@@ -28,11 +28,25 @@ export default class MainPage extends BasePage {
     check_items_in_basket(howmany){
         return cy.get(this.basket_in).should('contain.text',parseInt(howmany))
     }
-    get_items_name(){
-        
-        for(var i=0;i<6;i++){
-           this.item_list.push(cy.get(this.items_name).innerText)
-        
-        }
+    get_items_name_sortA_Z(){
+        this.get_items().then(($els) => {
+            const elements = Cypress._.map(Cypress.$.makeArray($els), 'innerText')
+            for(var i in elements){
+                this.items_list.push(elements[i])
+            }
+        assert.deepEqual(this.items_list[0],this.items_list.sort()[0])
+        })
+    }
+    get_items_name_sortZ_A(){
+        this.get_items().then(($els) => {
+            const elements = Cypress._.map(Cypress.$.makeArray($els), 'innerText')
+            for(var i in elements){
+                this.items_list.push(elements[i])
+            }
+        assert.deepEqual(this.items_list[0],this.items_list.sort().reverse()[0])
+        })
+    }
+    get_sort_box(){
+        return cy.get(this.sort_box)
     }
 }

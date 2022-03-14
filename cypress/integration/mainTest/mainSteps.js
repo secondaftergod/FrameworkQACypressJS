@@ -2,6 +2,7 @@ import { Given, When, Then} from "cypress-cucumber-preprocessor/steps";
 import MainPage from '../../pages/mainPage';
 import LoginPage from '../../pages/loginPage';
 import { expect } from "chai";
+import { assert } from "chai";
 const mainPage = new MainPage();
 const loginPage = new LoginPage();
 
@@ -42,8 +43,11 @@ Then('Check items in basket after delete',()=>{
     cy.get(mainPage.basket_in).should('not.exist')
 });
 Then('Check items A-Z',() => {
-    mainPage.get_items_name().then(($el)=>{
-        assert.equal($el.innerText,1)
+    mainPage.get_sort_box().then(($el) => {
+    $el.click()
     })
+    cy.get('#header_container > div.header_secondary_container > div.right_component > span > select > option:nth-child(2)').should('be.visible')
+    mainPage.get_items_name_sortA_Z()
+    });
     
-});
+    

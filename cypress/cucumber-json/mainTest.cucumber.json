@@ -22,7 +22,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 716000000
+              "duration": 626000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
             "result": {
               "status": "passed",
-              "duration": 1242000000
+              "duration": 1321000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I should see \"Products\" displayed as the page title",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 22000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 340000000
+              "duration": 236000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
             "result": {
               "status": "passed",
-              "duration": 1130000000
+              "duration": 1120000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I should see all \"6\" items",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 24000000
             }
           }
         ]
@@ -102,7 +102,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 199000000
+              "duration": 257000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
             "result": {
               "status": "passed",
-              "duration": 1107000000
+              "duration": 1174000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "Check all \"6\" is visible buttons",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 35000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "Click buy all items on page",
             "result": {
               "status": "passed",
-              "duration": 65000000
+              "duration": 57000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "Check \"6\" items in basket",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 10000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "Click remove all items on page",
             "result": {
               "status": "passed",
-              "duration": 38000000
+              "duration": 46000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "Check items in basket after delete",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 5000000
             }
           }
         ]
@@ -192,7 +192,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 167000000
+              "duration": 291000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
             "result": {
               "status": "passed",
-              "duration": 1096000000
+              "duration": 1197000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "Check items A-Z",
             "result": {
               "status": "failed",
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'then')\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/mainTest.feature:90:28)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/mainTest.feature:20229:29)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/mainTest.feature:19550:35)\nFrom previous event:\n    at Context.thenFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156285:63)\n    at Context.then (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156737:21)\n    at Context.<anonymous> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:173217:19)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172073:15\nFrom previous event:\n    at CommandQueue.runCommand (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172052:8)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172195:19)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172224:16\nFrom previous event:\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172195:39)\nFrom previous event:\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:186606:77\nFrom previous event:\n    at CommandQueue.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:186601:21)\n    at CommandQueue.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172258:15)\n    at $Cy.cy.<computed> [as then] (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:173256:18)\n    at Context.runnable.fn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:173474:19)\n    at callFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125619:21)\n    at Test.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125606:7)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180375:30\nFrom previous event:\n    at Object.onRunnableRun (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180360:19)\n    at $Cypress.action (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:169744:28)\n    at Test.Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:178039:13)\n    at Runner.../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126278:10)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126404:12\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126187:14)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126197:7\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126099:14)\n    at Hook.<anonymous> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126160:7)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180273:24)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180302:13\nFrom previous event:\n    at onNext (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180299:59)\n    at done (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125559:5)\n    at callFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125642:7)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125606:7)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180375:30\nFrom previous event:\n    at Object.onRunnableRun (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180360:19)\n    at $Cypress.action (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:169744:28)\n    at Hook.Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:178039:13)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126121:10)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126165:5\n    at timeslice (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:120091:27)"
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<option>' to be 'visible'\n\nThis element `<option>` is not visible because it has an effective width and height of: `0 x 0` pixels.\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/mainTest.feature:93:124)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/mainTest.feature:20258:29)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/mainTest.feature:19579:35)"
             }
           }
         ]
