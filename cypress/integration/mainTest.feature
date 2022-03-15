@@ -17,5 +17,14 @@ Feature: Check buy list
     And Click remove all items on page
     Then Check items in basket after delete
 
-    Scenario:Check
+    Scenario:Check sort A-Z
     Then Check items A-Z
+
+    Scenario:Check sort Z-A
+    Then Check items Z-A
+
+    Scenario:Check sort price Low-High
+    Then Check price Low-High
+
+    Scenario:Check sort price High-Low
+    Then Check price High-Low

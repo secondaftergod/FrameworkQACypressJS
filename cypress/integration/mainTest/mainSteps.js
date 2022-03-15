@@ -43,11 +43,22 @@ Then('Check items in basket after delete',()=>{
     cy.get(mainPage.basket_in).should('not.exist')
 });
 Then('Check items A-Z',() => {
-    mainPage.get_sort_box().then(($el) => {
-    $el.click()
-    })
-    cy.get('#header_container > div.header_secondary_container > div.right_component > span > select > option:nth-child(2)').should('be.visible')
+    cy.get('select').select('Name (A to Z)')
     mainPage.get_items_name_sortA_Z()
     });
     
+ Then('Check items Z-A',() => {
+    cy.get('select').select('Name (Z to A)')
+    mainPage.get_items_name_sortZ_A()
+    }); 
+
+Then('Check price Low-High',() => {
+    cy.get('select').select('Price (low to high)')
+    mainPage.get_items_price_sortLow_High()
     
+    });   
+Then('Check price High-Low',() => {
+    cy.get('select').select('Price (high to low)')
+    mainPage.get_items_price_sortHigh_Low()
+    
+    });   

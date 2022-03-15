@@ -22,7 +22,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 626000000
+              "duration": 668000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
             "result": {
               "status": "passed",
-              "duration": 1321000000
+              "duration": 1274000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I should see \"Products\" displayed as the page title",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 14000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 236000000
+              "duration": 179000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
             "result": {
               "status": "passed",
-              "duration": 1120000000
+              "duration": 1110000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I should see all \"6\" items",
             "result": {
               "status": "passed",
-              "duration": 24000000
+              "duration": 16000000
             }
           }
         ]
@@ -102,7 +102,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 257000000
+              "duration": 232000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
             "result": {
               "status": "passed",
-              "duration": 1174000000
+              "duration": 1128000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "Check all \"6\" is visible buttons",
             "result": {
               "status": "passed",
-              "duration": 35000000
+              "duration": 29000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "Click buy all items on page",
             "result": {
               "status": "passed",
-              "duration": 57000000
+              "duration": 42000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "Check \"6\" items in basket",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 9000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "Check \"6\" remove buttons",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 50000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "Click remove all items on page",
             "result": {
               "status": "passed",
-              "duration": 46000000
+              "duration": 50000000
             }
           },
           {
@@ -178,10 +178,10 @@
         ]
       },
       {
-        "id": "check-buy-list;check",
+        "id": "check-buy-list;check-sort-a-z",
         "keyword": "Scenario",
         "line": 20,
-        "name": "Check",
+        "name": "Check sort A-Z",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -192,7 +192,7 @@
             "name": "I navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 291000000
+              "duration": 172000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
             "result": {
               "status": "passed",
-              "duration": 1197000000
+              "duration": 1113000000
             }
           },
           {
@@ -211,8 +211,128 @@
             "line": 21,
             "name": "Check items A-Z",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<option>' to be 'visible'\n\nThis element `<option>` is not visible because it has an effective width and height of: `0 x 0` pixels.\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/mainTest.feature:93:124)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/mainTest.feature:20258:29)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/mainTest.feature:19579:35)"
+              "status": "passed",
+              "duration": 208000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-buy-list;check-sort-z-a",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Check sort Z-A",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 1249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Check items Z-A",
+            "result": {
+              "status": "passed",
+              "duration": 254000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-buy-list;check-sort-price-low-high",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Check sort price Low-High",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 1191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Check price Low-High",
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-buy-list;check-sort-price-high-low",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Check sort price High-Low",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Provide the username \"standard_user\" and password \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 1259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Check price High-Low",
+            "result": {
+              "status": "passed",
+              "duration": 189000000
             }
           }
         ]
